@@ -4,6 +4,9 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: 1fr;
 }
+.green {
+   grid-column: span 2;
+}
 .zone {
     cursor:pointer;
     /* display:inline-block; */
